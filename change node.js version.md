@@ -22,3 +22,8 @@ $n bin 7.2.0  //find out the path of the new node installed
 $cp /usr/local/n/versions/node/7.2.0/bin/node /usr/bin/node  //replace
 $node -v
 v7.2.0  //success
+
+
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
